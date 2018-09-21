@@ -1,0 +1,317 @@
+
+
+
+/*  Main Section Start */
+
+* {
+    margin: 0px;
+}
+main-app{
+    width: 100%;
+
+}
+
+.main-img {
+    position: relative;
+    height: 100vh;
+    /* min-height: 700px; */
+    background: url(./images/welcome-cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.8;
+    z-index: 1
+}
+
+.main-nav {
+    z-index: 2;
+}
+
+
+.main-text {
+    /* position: absolute; */
+    z-index: 3;
+    color: #fff;
+}
+
+.main-text-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-col-head {
+    font-size: 60px;
+    color:white;
+}
+
+.main-col-para {
+    color:#9c9797;
+}
+
+.btn{
+    border-radius: 25px;
+}
+.main-text-image{
+    width: 25%;
+
+}
+
+.main-img{
+    z-index: 3;
+    
+}
+/* End */
+
+/********* Second Section Start*************/
+.container-two{
+    border-bottom: 1px solid #eaebed;
+    
+    padding-left: 0px;
+}
+
+.sec-img{
+    position: relative;
+    height: 90vh;
+    /* min-height: 700px; */
+    background: url(./images/features-background.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+.main-overlay-two{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    opacity: 0.4;
+    z-index: 1
+}
+.iphone-two{
+    max-width: 300px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.container-main-text{
+
+}
+
+.fa-refresh{    
+    border-radius:  50%;
+    padding-left: 35%;
+    border-radius: 50%; 
+}
+.fa-shield{
+    border-radius:  50%;
+    padding-left: 35%;
+    border-radius: 50%; 
+}
+.fa-share{
+    border-radius:  50%;
+    padding-left: 35%;
+    border-radius: 50%; 
+}
+.fa-globe{
+    border-radius:  50%;
+    padding-left: 35%;
+    border-radius: 50%; 
+}
+/****************End-2************/
+    
+
+/* Third Section*/
+
+.testimonials{
+    border-bottom: 1px solid #eaebed;
+    padding-bottom: 70px;
+}
+
+.tes-1{
+    width: 80px;
+    border-radius: 50%;
+}
+latest-post{
+    background-color: #f9fafc;
+}
+.card-header{
+    padding: 0;
+}
+.card-1-img{
+    width: 100%;
+}
+.card-para{
+    display: block;
+}
+.card-2-img{
+    width: 100%;
+    
+}
+.card-3-img{
+    width: 100%;
+    
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.56rem;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+/************End-3************/
+
+/* Forth Section*/
+.section-title{
+    font-weight: bold;
+}
+
+/*Fifth Section*/
+.newsletter{
+    background-color: black;
+    opacity: .90;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+    
+}
+.news-title{
+    color: white;
+    margin-bottom: .75rem;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+.col-md-6{
+    padding-bottom: 30px;
+}
+.form{
+    border-radius: 5%;
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    height: 40px;
+}
+
+#msg-inp{
+    width: 800px;
+}
+
+/*************End-5***********/
+/*  Sixth Section*/
+#Contact{
+    width: 100%;
+}
+.contact-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-bottom: .75rem;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    color: #212529;
+}
+.form-control-message{
+    height: 300px;
+    width: 100%;
+    vertical-align: top;
+    text-align: left; 
+}
+.contact-main{
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+
+}
+.contact{
+    background-color: #eaebed;
+}
+.textinput{
+    float:left;
+    width: 100%;
+    min-height: 35px;
+    height: 300px;
+    outline: none;
+    resize: none;
+    border: 1px solid #ced4da;
+}
+
+/********Seventh Section**********/
+.container-footer{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#nav-foot{
+    word-spacing:5em;
+}
+
+@media screen and (max-width: 2560px){
+    .sec-img{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .sec-img{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1024px){
+    .sec-img{
+        height: 140vh;
+    }
+}
+@media screen and (max-width: 991px){
+    .iphone-two{
+        left: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .iphone-two{
+        left: 50%;
+    }
+    .main-text-image{
+        width: 25%;
+        
+    }
+}
+@media screen and (max-width: 425px){
+    .container-main-text{
+        padding-left: 40px;
+    }
+    .main-text-container{
+        height: 750px;
+    }
+
+    .main-img {
+        height: 100%;
+    }
+    .sec-img{
+        height: 100vh;
+    }
+    
+}
+@media screen and (max-width: 320px)
+{
+    .iphone-two{
+        padding-left: 15px;
+    }
+    .main-img{
+        height: 170vh;
+    }
+    .main-text-container{
+        padding-top: 150px;
+    }
+    .container-nav{
+        padding-left: 0px; 
+    }
+}
